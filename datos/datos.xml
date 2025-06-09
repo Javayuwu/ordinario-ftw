@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto>
+    <nombre>OP-1</nombre>
+    <precio>1999</precio>
+    <imagen>https://ypersoundmx.com/wp-content/uploads/2022/01/abfc9453-253b-413f-ae6a-3ac2b2ef20cd_basset_store_front.png</imagen>
+    <tipo>sintetizador</tipo>
+    <marca>Teenage Engineering</marca>
+    <enlace>https://www.youtube.com/watch?v=9GfRPqpHi14</enlace>
+  </producto>
+  <producto>
+    <nombre>PO-33 K.O!</nombre>
+    <precio>99</precio>
+    <imagen>https://ypersoundmx.com/wp-content/uploads/2013/06/teenageengineering_0e000107-4dce-4f5c-8fd6-baff6830be88_po-33.png</imagen>
+    <tipo>sampler</tipo>
+    <marca>Teenage Engineering</marca>
+    <enlace>https://www.youtube.com/watch?v=A8iYinNrJNY</enlace>
+  </producto>
+  <producto>
+    <nombre>PO-12 Rhythm</nombre>
+    <precio>69</precio>
+    <imagen>https://ypersoundmx.com/wp-content/uploads/2013/06/teenageengineering_81171f2d-4ef7-4ade-a1e4-d96adc2d1792_po-12front.png</imagen>
+    <tipo>drum machine</tipo>
+    <marca>Teenage Engineering</marca>
+    <enlace>https://www.youtube.com/watch?v=5rwoYPaCJzc</enlace>
+  </producto>
+  <producto>
+    <nombre>Launchpad MKII</nombre>
+    <precio>2000</precio>
+    <imagen>https://virtualdj.com/img/209895/39516/hwp_novation_launchpad2.png</imagen>
+    <tipo>Controlador MIDI</tipo>
+    <marca>Novation</marca>
+    <enlace>https://www.youtube.com/watch?v=No5stDnSuSU</enlace>
+  </producto>
+  <producto>
+    <nombre>Arturia MiniLab</nombre>
+    <precio>2000</precio>
+    <imagen>https://medias.arturia.net/images/products/minilab-3/catalog-image-white.png</imagen>
+    <tipo>Controlador MIDI</tipo>
+    <marca>Arturia</marca>
+    <enlace>https://www.youtube.com/watch?v=No5stDnSuSU</enlace>
+  </producto>
+  <producto>
+    <nombre>TX-6</nombre>
+    <precio>1199</precio>
+    <imagen>https://teenage.engineering/_img/store/118975ecd3372f5b79188c33bc13cedcd642c66ec77f1d2897b0e53be2f7e9d5.webp</imagen>
+    <tipo>mezclador</tipo>
+    <marca>Teenage Engineering</marca>
+    <enlace>https://www.youtube.com/watch?v=X7FywPPw_zQ</enlace>
+  </producto>
+  <producto>
+    <nombre>OP-Z</nombre>
+    <precio>599</precio>
+    <imagen>https://teenage.engineering/_img/5bc066ec1a41630004a9ce50_512.png</imagen>
+    <tipo>sintetizador</tipo>
+    <marca>Teenage Engineering</marca>
+    <enlace>https://www.youtube.com/watch?v=yeaVIBl54hY</enlace>
+  </producto>
+  <producto>
+    <nombre>Microkorg</nombre>
+    <precio>2000</precio>
+    <imagen>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbDrGUAZLx-eOQ3I5G3QSPiNe8Ekh58Wzi1Yp_jmgcAEogmhW_JeVuNxKPIaYRin5vmICPSyGNay8SVrELDpuNGqCDy152o6VmfjV7xX3TdY_qczdnr0UWbMao9D6kRjME7Ttbyg/w1200-h630-p-k-no-nu/USA_MicroKORGGD_1.png</imagen>
+    <tipo>Sintetizador</tipo>
+    <marca>Korg</marca>
+    <enlace>https://www.youtube.com/watch?v=c1K2gA1e4VY</enlace>
+  </producto>
+  
+
+
+  <noticias>
+  <noticia>
+    <titulo>Teenage Engineering lanza un nuevo sintetizador portátil</titulo>
+    <contenido>La marca sueca ha anunciado el lanzamiento del OP-1 Field, una versión mejorada de su icónico sintetizador OP-1, con nuevas funciones, batería de larga duración y mejoras de conectividad.</contenido>
+    <imagen>https://synthanatomy.com/wp-content/uploads/2024/11/%E2%80%8ETeenage-Engineering-OP-XY.jpeg</imagen>
+  </noticia>
+  <noticia>
+    <titulo>Sintes Don Manolo tiene los mejores precios!</titulo>
+    <contenido> La nueva tienda en linea "Don Manolo" vende los mejores Sintetizadores a los mejores precios del mercado</contenido>
+    <imagen>https://thebassvalley.com/wp-media/uploads/2019/10/thebassvalley_blog_synth.jpg</imagen>
+  </noticia>
+</noticias>
+
+</productos>

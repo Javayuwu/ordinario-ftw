@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Sintes Don Manolo</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cotiza nuestros productos!</h2>
+        <form aria-label="Formulario de contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="interes">soy:</label>
+            <select id="interes" name="interes" aria-expanded="false">
+                <option value="dueño de tienda de instrumentos musicales">Dueño de Tienda de instrumentos</option>
+                <option value="Musico aficionado">Musico aficionado</option>
+                <option value="musico profesional">Músico profesional</option>
+                <option value="una persona">una persona que solamente quiere comprar un producto</option>
+            </select>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+
+
+
+            <label>
+                <input type="checkbox" name="acepto"> Acepto los términos y condiciones
+            </label>
+
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <h5>&copy; 2025 Layú, para FTW</h5>
+    </footer>
+</body>
+</html>

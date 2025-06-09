@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://s.yimg.com/ny/api/res/1.2/o_.eLVGZnL_i8kWVIfqgKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-08/d9ce41a0-1ef4-11ed-b76f-9cff7c0cac1c);
+    
+}
+h5{
+    padding-left: 5%;
+}
+.noticia {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.noticia-img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.noticia-contenido h3 {
+    margin: 0;
+}
+
+.noticia-contenido p {
+    margin-top: 0.5rem;
+}
+
+p{
+    background-color: #f8f8f8; /* Gris muy claro, casi blanco */
+    color: #333; /* Texto oscuro, para buen contraste */
+    padding: 20px; /* Espacio alrededor del texto */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombra suave para darle profundidad */
+    line-height: 1.6; /* Aumenta el espacio entre líneas para mejor lectura */
+    margin: 0 auto 20px auto; /* Centra el párrafo y añade margen inferior */
+}
+
+main{
+    padding: 20px 10%; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    margin: 20px 5%; 
+    border-radius: 10px;
+}
+ 
+header {
+    background-color: rgba(240, 248, 12, 0.362); /* capa transparente */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 0 0 10px 10px;
+}
+
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    background-image: linear-gradient(to bottom left, #000000, #625f5c);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+.navbar ul{
+
+    list-style-type: none ;
+    background: linear-gradient(to right, #666666, #333333);
+    border-radius: 12px;
+
+    overflow: hidden;
+    padding: 0%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.navbar a{
+        color: rgb(241, 233, 233);
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(78, 78, 78);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .navbar ul {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea, form select, form button {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+form input, form textarea, form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#tabla-productos {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#tabla-productos thead {
+  background: linear-gradient(to right, #666666, #333333);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+#tabla-productos th, #tabla-productos td {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#tabla-productos tbody tr:nth-child(even) {
+  background-color: rgba(240, 240, 240, 0.6);
+}
+
+#tabla-productos tbody tr:hover {
+  background-color: rgba(200, 200, 200, 0.5);
+  transition: 0.3s ease;
+  
+}
+
+#tabla-productos img {
+  width: 50px;
+  height: auto;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+.featured-products-section {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.featured-products-section h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px; 
+    padding: 20px;
+    justify-content: center; 
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden; 
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding-bottom: 15px; 
+}
+
+.product-card:hover,
+.product-card:focus-within { 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.product-card a {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.3em;
+    margin: 0 10px 10px;
+    color: #333;
+}
+
+.product-card h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #007bff; 
+    margin: 0 10px 15px;
+}
+
+
+.view-all-button {
+    display: inline-block;
+    background-color: #f18b05;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.view-all-button:hover,
+.view-all-button:focus {
+    background-color: #0056b3;
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
+}
